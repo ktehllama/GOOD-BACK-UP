@@ -20,6 +20,7 @@ h3,p{
 }
 
 .biggerp{
+    color: azure;
     font-family:monospace;
     font-size: large;
 }
@@ -58,3 +59,26 @@ h3,p{
     display: none;
     overflow: hidden;
   } 
+
+
+  .arrow {
+    font-size: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.down {
+    transform: rotate(90deg); /* optional if you want a rotation effect */
+  }
+  
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #000000;
+  }
