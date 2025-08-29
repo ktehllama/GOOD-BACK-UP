@@ -3,7 +3,7 @@ background-color: rgb(15, 15, 15);
 }
 
 
-h1,h{
+h1,h2{
     color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
@@ -17,6 +17,11 @@ h3,p{
     color: azure;
     font-family: monospace;
     font-weight: bolder;
+}
+
+.biggerp{
+    font-family:monospace;
+    font-size: large;
 }
 
 .warn{
@@ -52,5 +57,4 @@ h3,p{
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #272727;
   } 
