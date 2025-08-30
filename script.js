@@ -13,10 +13,3 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-const arrow = document.getElementById("arrow");
-let toggled = false;
-
-arrow.addEventListener("click", () => {
-  toggled = !toggled;
-  arrow.textContent = toggled ? "🞃" : "🞂";
-});

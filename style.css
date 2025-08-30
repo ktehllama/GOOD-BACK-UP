@@ -1,3 +1,12 @@
+/*---fonts or sum shi---*/
+
+@font-face {
+    font-family: funny;
+    src: url(fonts/FancyDelight-3z1r6.ttf);
+  }
+
+
+
 body{
 background-color: rgb(15, 15, 15);
 }
@@ -11,6 +20,8 @@ h1,h2{
 
 a{
     color:rgb(121, 121, 121);
+    font-size: small;
+    font-family:sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h3,p{
@@ -31,7 +42,7 @@ h3,p{
 
 .banner{
     height:200px;
-    width:1589px;
+    width:1587px;
     border-radius: 1rem;
 }
 
@@ -60,17 +71,6 @@ h3,p{
     overflow: hidden;
   } 
 
-
-  .arrow {
-    font-size: 2rem;
-    cursor: pointer;
-    display: inline-block;
-    transition: transform 0.3s ease;
-  }
-  
-  .arrow.down {
-    transform: rotate(90deg); /* optional if you want a rotation effect */
-  }
   
   hr { 
     display: block;
@@ -79,6 +79,10 @@ h3,p{
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 1px;
-    border-color: #000000;
+    border-width: 0.1px;
+    border-color: #4d4d4d;
+  }
+
+  .biggerh1{
+    font-size:14mm;
   }
