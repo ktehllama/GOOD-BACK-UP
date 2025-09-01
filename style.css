@@ -86,3 +86,7 @@ h3,p{
   .biggerh1{
     font-size:14mm;
   }
+
+  .allbad{
+    color: #ff0000;
+  }
