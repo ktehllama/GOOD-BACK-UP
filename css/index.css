@@ -10,9 +10,9 @@ hr {
 
 .announcement {
     font-family: announcement;
-    font-size: 1.2rem;
-    color: rgb(255, 200, 47);
-    text-shadow: 1px 1px rgb(187, 138, 2);
+    font-size: 1rem;
+    color: rgb(255, 252, 51);
+    text-shadow: 2px 2px rgb(121, 89, 2);
     position: absolute;
     top: 4vh;  
     left: 175vh; 
