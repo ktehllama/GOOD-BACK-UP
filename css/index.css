@@ -2,11 +2,6 @@ hr {
     border-color: #4d4d4d;
 }
 
-<<<<<<< HEAD
-.announcement {
-    font-size: 1.2rem;
-    color: rgb(248, 189, 28);
-=======
 @font-face {
     font-family: announcement;
     src: url(/Fonts/Minecraftia-Regular.ttf);
@@ -18,7 +13,6 @@ hr {
     font-size: 1rem;
     color: rgb(255, 252, 51);
     text-shadow: 2px 2px rgb(121, 89, 2);
->>>>>>> upstream/main
     position: absolute;
     top: 4vh;  
     left: 175vh; 
@@ -41,15 +35,12 @@ hr {
 }
 
 
-<<<<<<< HEAD
-=======
 .dividera {
     margin: 30px 0;
     border: none;
     border-top: 1px solid #333333;
 }
 
->>>>>>> upstream/main
 .banner {
     width: 100%;
     max-height: 45vh;
